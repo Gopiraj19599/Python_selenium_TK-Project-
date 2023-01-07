@@ -28,7 +28,7 @@ chrome.find_element(By.CLASS_NAME,'MuiButton-textSizeMedium').submit()
 # login to Dashboad 
 
 
-chrome.find_element()
+
 
 
 time.sleep(5)

@@ -53,3 +53,24 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:40219/devtools/browser/56f640fa-f0b1-4e8d-972c-a0e6c9884361
 1672990085585	Marionette	INFO	Stopped listening on port 37493
 Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1673095610893	geckodriver	INFO	Listening on 127.0.0.1:59993
+1673095611397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ7wUNR"
+1673095612371	Marionette	INFO	Marionette enabled
+1673095612375	Marionette	INFO	Listening on port 34629
+Read port: 34629
+WebDriver BiDi listening on ws://127.0.0.1:60759
+1673095612541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ7wUNR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60759/devtools/browser/ab2546b3-caa1-4896-ba14-b343b9c79679
+1673095617438	Marionette	INFO	Stopped listening on port 34629
+1673095690654	geckodriver	INFO	Listening on 127.0.0.1:51905
+1673095691158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiies9w"
+1673095691682	Marionette	INFO	Marionette enabled
+1673095691686	Marionette	INFO	Listening on port 45749
+WebDriver BiDi listening on ws://127.0.0.1:51817
+Read port: 45749
+1673095691873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiies9w/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51817/devtools/browser/6a56969e-a974-4766-8900-870e110b83b9
+1673095711291	Marionette	INFO	Stopped listening on port 45749
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

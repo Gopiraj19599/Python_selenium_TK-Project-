@@ -12,7 +12,6 @@ options = Options()
 chrome = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 chrome.implicitly_wait(10)
 chrome.get("https://travelkit-mvp.boopalankrishnan02.workers.dev/login")
-chrome.get("https://travelkit-mvp.boopalankrishnan02.workers.dev/login")
 element = chrome.find_element(By.NAME, "username")
 element.send_keys("gopiraj.tealorca@gmail.com")
 element = chrome.find_element(By.NAME, "password")
@@ -44,7 +43,6 @@ from webdriver_manager.firefox import GeckoDriverManager
 firefox = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 firefox.implicitly_wait(10)
 firefox.get('https://travelkit-mvp.boopalankrishnan02.workers.dev/login')
-firefox.get("https://travelkit-mvp.boopalankrishnan02.workers.dev/login")
 element = firefox.find_element(By.NAME, "username")
 element.send_keys("gopiraj.tealorca@gmail.com")
 element = firefox.find_element(By.NAME, "password")
@@ -61,15 +59,11 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 edge = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
 edge.implicitly_wait(10)
 edge.get('https://travelkit-mvp.boopalankrishnan02.workers.dev/login')
-edge.get("https://travelkit-mvp.boopalankrishnan02.workers.dev/login")
 element = edge.find_element(By.NAME, "username")
 element.send_keys("gopiraj.tealorca@gmail.com")
 element = edge.find_element(By.NAME, "password")
 element.send_keys("monkatwork")
 edge.find_element(By.CLASS_NAME,'MuiButton-textSizeMedium').submit()
-
-
-
 
 
 

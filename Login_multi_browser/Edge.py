@@ -8,4 +8,6 @@ driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install(
 driver.implicitly_wait(10)
 driver.get('https://travelkit-mvp.boopalankrishnan02.workers.dev/login')
 
+
+time.sleep(4)
 driver.close()
