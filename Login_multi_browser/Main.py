@@ -68,7 +68,6 @@ edge.find_element(By.CLASS_NAME,'MuiButton-textSizeMedium').submit()
 
 
 
-
 time.sleep(10)
 chrome.close()
 firefox.close()
