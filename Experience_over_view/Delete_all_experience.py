@@ -62,9 +62,6 @@ while True:
         print("deleted all experiecse")
         break
 
-
-
 time.sleep(5)
 chrome.close()
-
 
