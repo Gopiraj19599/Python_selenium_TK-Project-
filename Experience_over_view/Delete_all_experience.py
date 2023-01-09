@@ -39,16 +39,7 @@ delete = chrome.find_elements(By.XPATH,"//*[contains(@id,'MUIDataTableBodyRow-')
 
 # delete = chrome.find_elements(By.XPATH,"//*[contains(@id,'MUIDataTableBodyRow-')]/td[5]/div/div/button[2]")
 
-def deleted(chrome, delete):
-    if(len(delete) != 0):
-        for i in range(len(delete)):
-            chrome.find_element(By.XPATH,"//*[contains(@id,'MUIDataTableBodyRow-')]/td[5]/div/div/button[2]").click()
-            chrome.find_element(By.XPATH,"/html/body/div[2]/div[3]/div[2]/button[2]").click()
 
-        else:
-            print("deleted all experiecse")
-
-# deleted(chrome, delete)
 
 while True:
     chrome.refresh()
