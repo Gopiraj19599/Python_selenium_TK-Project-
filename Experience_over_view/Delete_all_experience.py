@@ -33,13 +33,7 @@ chrome.find_element(By.XPATH,"//span[normalize-space()='Experiences Overview']")
 
 delete = chrome.find_elements(By.XPATH,"//*[contains(@id,'MUIDataTableBodyRow-')]/td[5]/div/div/button[2]")
 
-
-
-
-
 # delete = chrome.find_elements(By.XPATH,"//*[contains(@id,'MUIDataTableBodyRow-')]/td[5]/div/div/button[2]")
-
-
 
 while True:
     chrome.refresh()
