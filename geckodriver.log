@@ -211,3 +211,15 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:50063/devtools/browser/a66f746b-5a68-4f76-a421-104783810752
 1673245332596	Marionette	INFO	Stopped listening on port 35899
 Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1673345806962	geckodriver	INFO	Listening on 127.0.0.1:60829
+1673345807453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilev8dPVa"
+1673345808314	Marionette	INFO	Marionette enabled
+1673345808318	Marionette	INFO	Listening on port 45579
+Read port: 45579
+WebDriver BiDi listening on ws://127.0.0.1:44305
+1673345808485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev8dPVa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44305/devtools/browser/29ce55cf-3e39-4c81-aa24-2d7d1d328cc6
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1673345811759	Marionette	INFO	Stopped listening on port 45579
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

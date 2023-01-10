@@ -6,12 +6,11 @@ from selenium.webdriver.common.by import By
 
 # Try to login  on  Chrome  browser
 
-from selenium.webdriver.chrome.options import Options
+
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-options = Options()
-options.add_argument("--start-maximized")
-chrome = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+chrome = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+chrome.maximize_window()
 chrome.implicitly_wait(10)
 chrome.get("https://travelkit-mvp.boopalankrishnan02.workers.dev/login")
 
