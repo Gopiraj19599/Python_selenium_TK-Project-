@@ -21,7 +21,7 @@ options = Options()
 options.add_argument("--start-maximized")
 chrome = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 chrome.get("https://travelkit-mvp.boopalankrishnan02.workers.dev/login")
-chrome.implicitly_wait(0.5)
+chrome.implicitly_wait(10)
 
 #  send string to the username & password input field
 element = chrome.find_element(By.NAME, "username")

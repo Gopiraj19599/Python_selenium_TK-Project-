@@ -1,3 +1,11 @@
+# Test case
+# 1. User can able to open to chrome
+# 2. User can able to open the site on Edge browser
+# 3. User can able to open the site on Firefox browser
+# 4. User can able to open the site on chrome browser with incognito mode
+
+
+
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By

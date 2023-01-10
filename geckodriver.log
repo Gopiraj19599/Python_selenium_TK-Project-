@@ -200,3 +200,14 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1673245306357	geckodriver	INFO	Listening on 127.0.0.1:45501
+1673245306861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50063" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEtjjr5"
+1673245308178	Marionette	INFO	Marionette enabled
+1673245308183	Marionette	INFO	Listening on port 35899
+Read port: 35899
+WebDriver BiDi listening on ws://127.0.0.1:50063
+1673245308374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEtjjr5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50063/devtools/browser/a66f746b-5a68-4f76-a421-104783810752
+1673245332596	Marionette	INFO	Stopped listening on port 35899
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
